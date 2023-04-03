@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "builds": [{ "src": "app.R", "use": "@vercel/ruby" }],
+  "routes": [{ "src": "/(.*)", "dest": "/app.R" }]
+}
+
+
+
